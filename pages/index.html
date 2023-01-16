@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      .jumbotron {
+            background-image: url('https://images.unsplash.com/photo-1559666126-84f389727b9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+            background-size: cover;
+            color: white;
+      }
+      .section-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .section-header img {
+        margin-right: 40px;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .nav-item {
+        font-size: 20px;
+        border: 1px solid gray;
+        padding: 10px 20px;
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* Style the navigation menu */
+      .navbar {
+        width: 100%;
+        background-color: rgb(150, 150, 150);
+        overflow: auto;
+      }
+
+      /* Navigation links */
+      .navbar a {
+        float: left;
+        padding: 12px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 17px;
+        width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        text-align: center; /* If you want the text to be centered */
+      }
+
+      /* Add a background color on mouse-over */
+      .navbar a:hover {
+        background-color: rgb(73, 73, 73);
+      }
+
+      /* Style the current/active link */
+      .navbar a.active {
+        background-color: #04AA6D;
+      }
+      .card {
+            margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section-header">
+      <img src="logo.jpg" alt="">
+      <h1>Intergalactic Space Travel</h1>
+    </section>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Search</a>
+      <a href="#">Contact</a>
+      <a href="#">Login</a>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+      <h1 class="display-4">Explore the Final Frontier with Us</h1>
+      <p class="lead">Welcome to Intergalactic Space Travel, where we make your dream of space travel a reality.</p>
+  </div>
+  
+  <div class="container">
+      <section class="section-header">
+          <h2>What We Do</h2>
+          <p>We are a space tourism company that provides a once in a lifetime opportunity for individuals to experience the thrill of space travel. Our state-of-the-art spacecrafts are designed for maximum safety and comfort, and our experienced pilots and crew will make sure your journey is unforgettable.</p>
+      </section>
+      <section>
+          <h2>Pricing</h2>
+          <div class="row">
+              <div class="col-sm-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Orbital Flight</h5>
+                          <p class="card-text">Experience the weightlessness of space and see the Earth from a whole new perspective.</p>
+                          <h6 class="card-subtitle mb-2 text-muted">Starting at $250,000</h6>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Moon Tour</h5>
+                          <p class="card-text">Take a step on the lunar surface and see the Earth rise over the horizon.</p>
+                          <h6 class="card-subtitle mb-2 text-muted">Starting at $1,000,000</h6>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mars Expedition</h5>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+    <!-- <div class="container-fluid">
+    <div class="container-fluid">
+
+      <a class="nav-link" aria-current="page" href="#">Home</a>
+      <div class="p-3"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Planning</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
